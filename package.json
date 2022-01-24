@@ -1,0 +1,16 @@
+{
+  "name": "levenshtein-usage-example",
+  "version": "1.0.0",
+  "description": "A simple usage example of the Levenshtein algorithm to compare names",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [ "levenshtein" ],
+  "author": { "name": "Gustavo Arantes", "email": "me@arantes.dev", "url": "https://arantes.dev" },
+  "license": "MIT",
+  "dependencies": {
+    "js-levenshtein": "^1.1.6",
+    "remove-accents": "^0.4.2"
+  }
+}
